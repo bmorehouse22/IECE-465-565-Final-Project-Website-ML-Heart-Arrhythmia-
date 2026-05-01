@@ -1,5 +1,3 @@
-# Academic Project Page Template
+# IECE 465.565 Final Project Website: ML Heart Arrhythmia
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
-
-A clean, responsive template for academic project pages.
+This project compares two machine learning approaches, SVM and 1D CNN, for classifying ECG heartbeats and detecting arrhythmias. The SVM model uses preprocessing, manual feature extraction, PCA dimensionality reduction, and classification, while the 1D CNN learns important ECG patterns directly from the raw heartbeat signals. Both models were evaluated using metrics such as accuracy, recall and F1 score, with the CNN showing stronger overall performance, especially in detecting abnormal beats and reducing false negatives.
